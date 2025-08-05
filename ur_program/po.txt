@@ -1,0 +1,16 @@
+ Program
+   Variables Setup
+   Robot Program
+     MoveJ
+       Waypoint_1
+     Wait: 1.0
+     Save Image
+       If save succeeded
+         'Optional'
+       If save failed
+         'Optional'
+     Wait: 0.5
+     Popup: run matlab script
+     MoveJ
+       Waypoint_2
+     Control by 192.168.56.1
